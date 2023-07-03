@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MiniCore.Models.Cliente>
+
+
+@{
+    ViewData["Title"] = "Clients List";
+}
+
+<h1 class="mb-4 text-center" style="color: black; font-weight: bold">@ViewData["Title"]</h1>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ClienteId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ClienteId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ClienteId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

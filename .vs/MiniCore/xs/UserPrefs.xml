@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{3DACE7D4-78C3-43DB-B861-A098D0B77F29}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MiniCore PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniCore/wwwroot/js/site.js">
+    <Files>
+      <File FileName="MiniCore/appsettings.json" />
+      <File FileName="MiniCore/Program.cs" />
+      <File FileName="MiniCore/appsettings.Development.json" />
+      <File FileName="MiniCore/Controllers/ClientesController.cs" />
+      <File FileName="MiniCore/Controllers/HomeController.cs" />
+      <File FileName="MiniCore/Controllers/ContratosController.cs" />
+      <File FileName="MiniCore/Data/MiniCoreContext.cs" />
+      <File FileName="MiniCore/Models/Cruce.cs" />
+      <File FileName="MiniCore/Models/Contrato.cs" />
+      <File FileName="MiniCore/Models/Cliente.cs" />
+      <File FileName="MiniCore/Views/Home/Index.cshtml" />
+      <File FileName="MiniCore/Views/Home/Privacy.cshtml" />
+      <File FileName="MiniCore/Views/Shared/_Layout.cshtml" />
+      <File FileName="MiniCore/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="MiniCore/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="MiniCore/Views/Contratos/Index.cshtml" />
+      <File FileName="MiniCore/Views/Contratos/Cruce.cshtml" />
+      <File FileName="MiniCore/Views/Contratos/Details.cshtml" />
+      <File FileName="MiniCore/Views/Contratos/Delete.cshtml" />
+      <File FileName="MiniCore/Views/Contratos/Edit.cshtml" />
+      <File FileName="MiniCore/Views/Contratoes/Index.cshtml" />
+      <File FileName="MiniCore/Views/Contratos/Create.cshtml" />
+      <File FileName="MiniCore/Views/Clientes/Index.cshtml" />
+      <File FileName="MiniCore/Views/Clientes/Create.cshtml" />
+      <File FileName="MiniCore/Views/Contratoes/Create.cshtml" />
+      <File FileName="MiniCore/wwwroot/js/site.js" Line="26" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MiniCore" expanded="True">
+            <Node name="MiniCore" expanded="True">
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="site.js" selected="True" />
+                </Node>
+                <Node name="lib" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
